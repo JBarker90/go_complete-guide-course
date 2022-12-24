@@ -1,6 +1,6 @@
-## Five Basic Questions
+# Five Basic Questions
 
-1. How do we run the code in our project?
+### 1. How do we run the code in our project?
 
 - You can `cd` to the directory where your file is located and use `go` command to run the program.
 
@@ -25,7 +25,7 @@ Hi there!
 		- `go get` - Downloads the raw source code of someone else's package
 		- `go test` - Runs any tests associated with the current project. 
 
-2. What does `'package main'` mean?
+### 2. What does `'package main'` mean?
 
 - When you see "package" you can think of it as a equivalent to project or workspace. 
 
@@ -70,7 +70,7 @@ func help(){
 		- Executable: Generates a file that we can run. (Like "main" package when we run "go build"). The name 'main' is special.
 		- Reusable: Code used as 'helpers'. Good place to put reuseable logic.
 
-3. What does `'import fmt'` mean?
+### 3. What does `'import fmt'` mean?
 
 - The import statement using 'fmt' is specifically importing a standard library included with the Go programming language.
 
@@ -79,7 +79,7 @@ func help(){
 - Here is a link to the standard packages from Golang:
 	- https://pkg.go.dev/std
 
-4. What's that `'func'` thing?
+### 4. What's that `'func'` thing?
 
 - Similar to many other programming languages, `'func'` is used to declare a function. 
 
@@ -91,7 +91,7 @@ func main() {
 }
 ```
 
-5. How is the `main.go` file organized?
+### 5. How is the `main.go` file organized?
 
 - It will always be organized the same way.
 
